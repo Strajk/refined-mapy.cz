@@ -1,0 +1,79 @@
+$headerHeight = 48px - 14
+#layout-content
+  #layout-header
+    height: $headerHeight
+    button
+      height: $headerHeight
+      &:before, .avatar // icons and avatar
+        display none
+      span
+        line-height $headerHeight
+        font-size 13px
+
+  #layout-body
+    .content-switcher
+      padding 12px 0
+
+    .places-main-cont
+      .places-list
+        .head-section
+          .make-folder-cover
+            position absolute
+            top 18px
+            left 7px
+            margin 0
+            padding 0
+            button
+              width auto
+              margin 0
+              padding 0
+            button span
+              display none // hide text
+          &:hover button span.TODO
+            display inline-block
+            border-radius 4px
+            padding 0 8px
+            background #fff
+            box-shadow 0 1px 3px rgba(0,0,0,.3)
+
+        // .home-and-work
+
+        ul.folders
+          li.folder
+            height: auto
+            .points
+              top 50%
+              transform translateY(-50%)
+            .image-cover
+              display none
+        ul.items
+          li.item
+            height auto
+            > .inner
+              height auto
+              margin 8px auto
+            > .separator
+              opacity .7 // when items were more condensed, separator was too harsh
+            .image-cover
+              position relative
+              width auto
+              height auto
+              box-shadow none
+              flex none
+              margin-left 8px
+              top 3px // vertical center
+              > .icon
+                margin-top 0
+              > .item-type-icon
+                display none // IMO it's not important, it's always `navigate` but on manual GPX imports, which has other icon all together
+            .text-cover
+              > div
+                padding-left 8px // orig: 16px
+
+
+// .activity-main-cont
+
+// .photos-main-cont
+
+
+//#layout-footer

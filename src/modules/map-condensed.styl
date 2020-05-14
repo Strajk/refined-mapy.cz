@@ -1,0 +1,35 @@
+#scene
+  .control-layer
+    // Specific location depends on which map is currently active
+    // 3D: #scene #left3d .control-layer
+    // 2D: #scene .hud .control-layer
+    .button-group:nth-child(2)
+      // Just shortcuts for aerial and outdoor map
+      // Not needed as keyboard shortcuts are faster
+      display none
+
+  .control-layer,
+  .darth-control,
+  .map-control,
+  .zoom
+    width auto !important
+    button
+      width auto !important // `report` button has specified width for some weird reason
+      font-size: 13px; // orig: zoom buttons: 17
+      line-height: 24px;
+      height: 24px; // orig: 27px
+      padding: 0 8px; // orig: zoom buttons overwritten
+      margin: 0;
+      &:before
+        top 0
+      span // Contains text describing the icon
+        display none
+
+  // Fixes
+  .zoom .button-group
+    position static
+  #geolocation-control
+    right 90px
+
+  .marker.type-paid
+    display none
