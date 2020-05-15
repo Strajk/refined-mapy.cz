@@ -7,7 +7,12 @@ const pkg = require("./package.json")
 
 function transformManifest (buffer, mode) {
   const manifest = JSON.parse(buffer.toString())
+
+  manifest.name = pkg.meta.name
   manifest.version = pkg.version
+  manifest.description = pkg.description
+  manifest.homepage_url = pkg.homepage
+
   if (mode === "development") {
     // For easier development
     manifest.permissions.push("tabs")

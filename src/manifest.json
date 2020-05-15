@@ -1,10 +1,16 @@
 {
-  "name": "Refined Mapy.cz",
   "manifest_version": 2,
-  "description": "Mapy.cz tweaks",
-  "homepage_url": "https://github.com/strajk/refined-mapy.cz",
+
+  "name": "__GENERATED__",
+  "version": "__GENERATED__",
+  "description": "__GENERATED__",
+
+  "homepage_url": "__GENERATED__",
+
   "icons": {
-    "128": "icons/icon128.png"
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
   },
   "permissions": [
     "https://*.mapy.cz/*"
