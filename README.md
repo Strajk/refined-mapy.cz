@@ -16,14 +16,19 @@
 
 Redundant controls hidden, the rest made more compact and unified. Hidden hefty text descriptions. Hidden paid Points of interest.
 
+![Condensed Map interface](./assets/exported/feature-map-condensed.png)
+
 #### Condensed Sidebar interface 🧩
 
 Reduced size of lot of elements to fit more content, especially saved routes.
+
+![Condensed Sidebar interface](./assets/exported/feature-sidebar-condensed.png)
 
 #### Keyboard shortcuts 🕹
 
 Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial)
 
+![Keyboard shortcuts](./assets/exported/feature-shortcuts.png)
 
 
 ## Future Features 🧠💡🙈
