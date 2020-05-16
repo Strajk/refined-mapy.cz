@@ -26,7 +26,7 @@
         "description": "Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial)"
       }
     },
-    "descriptionDetailed": "Refines Mapy.cz interface and adds useful features, such as: \n\n• Keyboard shortcuts for switching map types\n• Condensed sidebar to fit more content\n• Condensed map controls\n• Hidden paid POIs\n• and more…"
+    "descriptionDetailed": "• Keyboard shortcuts for switching map types\n• Condensed sidebar to fit more content\n• Condensed map controls\n• Hidden paid POIs\n• and more…"
   },
   "repository": {
     "type": "git",
