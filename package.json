@@ -38,9 +38,10 @@
   "homepage": "https://github.com/Strajk/refined-mapy.cz",
   "scripts": {
     "develop": "webpack --mode=development --watch",
+    "firefox": "web-ext run --source-dir=build",
     "build": "webpack --mode=production",
     "build-readme": "ejs-cli README.ejs --options package.json > README.md",
-    "prep-for-publish": "rm -rf build build.zip && webpack --mode=production && zip -r build.zip build",
+    "prep-for-publish": "rm -rf build build.zip && webpack --mode=production && cd build && zip -r ../build.zip ./ && echo 'Jobe done 🙏'",
     "test": "jest",
     "cypress:open": "cypress open",
     "lint": "eslint .",
@@ -60,6 +61,8 @@
     "eslint-plugin-import": "^2.20.2",
     "jest": "^25.4.0",
     "stylus": "^0.54.7",
+    "web-ext": "^4.2.0",
+    "web-ext-submit": "^4.2.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-extension-reloader": "^1.1.4"
