@@ -9,6 +9,10 @@
 * [Chrome extension from Chrome Web Store](https://chrome.google.com/webstore/detail/<%= meta.chromeWebStoreId %>)
 * Firefox add-on – TODO 👷‍
 * Safari extension – probably not gonna happen, TBH
+* [Userscript](https://cdn.jsdelivr.net/gh/strajk/refined-mapy.cz@master/greasemonkey.user.js)
+* <details><summary><a href="https://en.wikipedia.org/wiki/Bookmarklet">Bookmarklet</a></summary><pre><code>
+   javascript:{const s = document.createElement("script"); s.src = 'https://cdn.jsdelivr.net/gh/strajk/refined-mapy.cz@master/load.js'; s.type = 'text/javascript'; document.body.appendChild(s);};void(0);
+   </code></pre></details>
 
 ## Features
 <% Object.entries(meta.features).forEach(([key, feature]) => { %>
@@ -41,3 +45,5 @@ Feel free to! 🙏
 
 * [refined-hacker-news](https://github.com/plibither8/refined-hacker-news)
 * [refined-github](https://github.com/sindresorhus/refined-github)
+* [strava-map-switcher](https://github.com/liskin/strava-map-switcher)
+  * Bookmarklet & Userscripts support
