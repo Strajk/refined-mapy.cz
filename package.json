@@ -49,9 +49,9 @@
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.1.1",
-    "cypress": "^3.8.3",
-    "cypress-browser-extension-plugin": "^0.1.0",
-    "cypress-skip-and-only-ui": "^1.2.6",
+    "cypress": "~4.10.0",
+    "cypress-browser-extension-plugin": "Strajk/cypress-browser-extension-plugin#15f14eaad4c0602339ddd67aafd9ec9d9145936b",
+    "cypress-skip-and-only-ui": "~1.2.6",
     "ejs": "^3.1.2",
     "ejs-cli": "^2.2.0",
     "eslint": "^6.8.0",

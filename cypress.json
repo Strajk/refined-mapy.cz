@@ -1,5 +1,10 @@
 {
   "chromeWebSecurity": false,
   "watchForFileChanges": false,
-  "numTestsKeptInMemory": 200
+  "numTestsKeptInMemory": 200,
+  "baseUrl": "https://mapy.cz",
+  "env": {
+    "username": "TODO",
+    "password": ""
+  }
 }

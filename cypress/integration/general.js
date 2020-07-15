@@ -1,14 +1,32 @@
+const sessionCookie = "TODO"
+
+Cypress.Cookies.defaults({
+  whitelist: sessionCookie,
+})
+
 describe("refined-mapy.cz", () => {
-  it.skip("Deletes old screenshots", () => {
-    // `trashAssetsBeforeRuns` in `cypress.json` config file seems not to work
-    // https://github.com/cypress-io/cypress/issues/5033
-    cy.exec("rm -rf ./cypress/screenshots/")
+  before(() => {
+    login()
   })
 
-  it("TODO", () => {
-    cy.viewport(1280, 800)
-    cy.visit("")
-    cy.get("…").should("be.visible")
-    cy.screenshot("TODO", { capture: "viewport" })
+  it("Basics", () => {
+    cy.visit("/")
+    cy.get(".control-layer button[title='Aerial Map']").should("not.be.visible")
+    cy.get(".control-layer button[title='Outdoor']").should("not.be.visible")
   })
 })
+
+function login () {
+  cy.getCookie(sessionCookie).then(cookie => {
+    if (cookie) {
+      cy.log("Already logged in, continuing")
+    } else {
+      cy.log("Logging in")
+      const username = Cypress.env("username")
+      const password = Cypress.env("password")
+      // if (!password) throw new Error("Missing password value, set using CYPRESS_password=...")
+
+      // TODO
+    }
+  })
+}
