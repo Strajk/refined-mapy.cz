@@ -48,23 +48,23 @@
     "lint:fix": "eslint --fix ."
   },
   "devDependencies": {
-    "copy-webpack-plugin": "^5.1.1",
+    "copy-webpack-plugin": "~5.1.1",
     "cypress": "~4.10.0",
     "cypress-browser-extension-plugin": "Strajk/cypress-browser-extension-plugin#15f14eaad4c0602339ddd67aafd9ec9d9145936b",
     "cypress-skip-and-only-ui": "~1.2.6",
-    "ejs": "^3.1.2",
-    "ejs-cli": "^2.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-config-strajk": "0.0.5",
-    "eslint-plugin-cypress": "^2.10.3",
-    "eslint-plugin-import": "^2.20.2",
-    "jest": "^25.4.0",
-    "stylus": "^0.54.7",
-    "web-ext": "^4.2.0",
-    "web-ext-submit": "^4.2.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-extension-reloader": "^1.1.4"
+    "ejs": "~3.1.2",
+    "ejs-cli": "~2.2.0",
+    "eslint": "~6.8.0",
+    "eslint-config-airbnb-base": "~14.1.0",
+    "eslint-config-strajk": "0.0.6",
+    "eslint-plugin-cypress": "~2.10.3",
+    "eslint-plugin-import": "~2.20.2",
+    "jest": "~25.4.0",
+    "stylus": "~0.54.7",
+    "web-ext": "~4.2.0",
+    "web-ext-submit": "~4.2.0",
+    "webpack": "~4.43.0",
+    "webpack-cli": "~3.3.11",
+    "webpack-extension-reloader": "~1.1.4"
   }
 }
