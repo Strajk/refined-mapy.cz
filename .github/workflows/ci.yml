@@ -1,7 +1,7 @@
 name: CI
 on: [push]
 jobs:
-  build:
+  main:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -10,19 +10,11 @@ jobs:
           node-version: '12'
       - run: npm install
       - run: npm run build
-
-  test-unit:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
+      - run: npm run lint
       - run: npm run test
-
-  test-e2e:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - uses: cypress-io/github-action@v2
         with:
+          install: false # already installed from previous steps
           build: npm run build
           browser: chrome
           record: true
