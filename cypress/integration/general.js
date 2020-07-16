@@ -22,8 +22,8 @@ function login () {
       cy.log("Already logged in, continuing")
     } else {
       cy.log("Logging in")
-      const username = Cypress.env("username")
-      const password = Cypress.env("password")
+      const username = Cypress.env("username") // eslint-disable-line no-unused-vars
+      const password = Cypress.env("password") // eslint-disable-line no-unused-vars
       // if (!password) throw new Error("Missing password value, set using CYPRESS_password=...")
 
       // TODO
