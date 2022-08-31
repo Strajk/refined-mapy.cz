@@ -47,6 +47,7 @@ try {
     q: MAP_SETS.zakladni,
     w: MAP_SETS.turisticka,
     e: MAP_SETS.letecka,
+    r: MAP_SETS.zemepisna, // geographical
   }
 
   window.JAK.Events.addListener(document, "keydown", undefined, (keyboardEvent) => {
