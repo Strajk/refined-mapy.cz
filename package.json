@@ -1,6 +1,6 @@
 {
   "name": "refined-mapy.cz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Refines Mapy.cz interface and adds useful features",
   "keywords": [],
   "license": "ISC",
@@ -25,10 +25,15 @@
         "emoji": "🧩",
         "description": "Reduced size of lot of elements to fit more content, especially saved routes."
       },
+      "performance": {
+        "title": "Performance improvements",
+        "emoji": "⚡️",
+        "description": "Disabled some unnecessary slow animations, which were nice at first, but get annoying after a while."
+      },
       "shortcuts": {
         "title": "Keyboard shortcuts",
         "emoji": "🕹",
-        "description": "Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial)"
+        "description": "Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial, <kbd>R</kbd> Geographic)"
       }
     },
     "descriptionDetailed": "• Keyboard shortcuts for switching map types\n• Condensed sidebar to fit more content\n• Condensed map controls\n• Hidden paid POIs\n• and more…"
