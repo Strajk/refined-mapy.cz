@@ -16,6 +16,12 @@
 
 ## Features
 
+#### Drop GPX file on a map to show as blue overlay 🖱
+
+This will allow you to plan a new route while seeing the GPX overlay. Compared to the native GPX import which will get lost when you interact with planner
+
+![Drop GPX file on a map to show as blue overlay](./assets/exported/feature-gpx-drop.png)
+
 #### Condensed Map interface 🗺
 
 Redundant controls hidden, the rest made more compact and unified. Hidden hefty text descriptions. Hidden paid Points of interest.

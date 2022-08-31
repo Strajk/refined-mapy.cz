@@ -10,6 +10,11 @@
     "name": "Refined Mapy.cz",
     "chromeWebStoreId": "ekolhceminigjalkpbbajnippfomegcc",
     "features": {
+      "gpx-drop": {
+        "title": "Drop GPX file on a map to show as blue overlay",
+        "emoji": "🖱",
+        "description": "This will allow you to plan a new route while seeing the GPX overlay. Compared to the native GPX import which will get lost when you interact with planner"
+      },
       "map-condensed": {
         "title": "Condensed Map interface",
         "emoji": "🗺",
