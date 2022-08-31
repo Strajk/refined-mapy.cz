@@ -65,8 +65,10 @@ try {
     }
 
     const mapped = MAPPING[keyboardEvent.key]
+    if (mapped) window.Mapy.getComponent("mapsetswitch")._setMapset(mapped)
 
-    window.Mapy.getComponent("mapsetswitch")._setMapset(mapped)
+    if (keyboardEvent.key === "p") window.Mapy.getComponent("layercontrol").togglePano()
+    if (keyboardEvent.key === "o") window.Mapy.getComponent("layercontrol")._open3d()
   })
 } catch (e) {
   console.warn(`[refined-mapy.cz] Failed module: map-switch-shortcuts: ${e}`)
