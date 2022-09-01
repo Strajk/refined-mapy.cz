@@ -33,7 +33,7 @@
       "shortcuts": {
         "title": "Keyboard shortcuts",
         "emoji": "🕹",
-        "description": "Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial, <kbd>R</kbd> Geographic. <kbd>P</kbd> toggle Pano, <kbd>O</kbd> toggle 3D)."
+        "description": "Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial, <kbd>R</kbd> Geographic)\n\n<kbd>P</kbd> toggle Pano, <kbd>O</kbd> toggle 3D\n\n<kbd>1-9</kbd> set zoom levels"
       }
     },
     "descriptionDetailed": "• Keyboard shortcuts for switching map types\n• Condensed sidebar to fit more content\n• Condensed map controls\n• Hidden paid POIs\n• and more…"

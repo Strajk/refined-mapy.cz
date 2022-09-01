@@ -43,7 +43,7 @@ try {
     "sreality_pois": "sreality_pois",
   }
 
-  const MAPPING = {
+  const MAP_SETS_MAPPING = {
     q: MAP_SETS.zakladni,
     w: MAP_SETS.turisticka,
     e: MAP_SETS.letecka,
@@ -60,11 +60,19 @@ try {
       target: body.lang-en
     */
 
-    if (["INPUT"].includes(keyboardEvent.target.tagName)) {
-      return // ignore
+    // Ignore when inside input fields
+    if (["INPUT"].includes(keyboardEvent.target.tagName)) return // ignore
+
+    // try parsing to number
+    const keyAsNumber = Number(keyboardEvent.key)
+    if (typeof keyAsNumber === "number" && !Number.isNaN(keyAsNumber)) {
+      // 1 is the whole Earth, 8 is the whole Czech Republic, so for planning 8 is the lowest meaningful zoom
+      const LOWEST_MEANINGFUL_ZOOM = 8
+      window.Mapy.getComponent("pois")._map.setZoom(keyAsNumber + LOWEST_MEANINGFUL_ZOOM)
+      return
     }
 
-    const mapped = MAPPING[keyboardEvent.key]
+    const mapped = MAP_SETS_MAPPING[keyboardEvent.key]
     if (mapped) window.Mapy.getComponent("mapsetswitch")._setMapset(mapped)
 
     if (keyboardEvent.key === "p") window.Mapy.getComponent("layercontrol").togglePano()

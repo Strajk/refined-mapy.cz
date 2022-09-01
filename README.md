@@ -34,9 +34,19 @@ Reduced size of lot of elements to fit more content, especially saved routes.
 
 ![Condensed Sidebar interface](./assets/exported/feature-sidebar-condensed.png)
 
+#### Performance improvements ⚡️
+
+Disabled some unnecessary slow animations, which were nice at first, but get annoying after a while.
+
+![Performance improvements](./assets/exported/feature-performance.png)
+
 #### Keyboard shortcuts 🕹
 
-Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial)
+Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial, <kbd>R</kbd> Geographic)
+
+<kbd>P</kbd> toggle Pano, <kbd>O</kbd> toggle 3D
+
+<kbd>1-9</kbd> set zoom levels
 
 ![Keyboard shortcuts](./assets/exported/feature-shortcuts.png)
 
