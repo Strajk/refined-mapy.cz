@@ -6,7 +6,7 @@ try {
     ._items[0] // 0: Places, 1: Activities, 2: Photos
     .component
     // ._activeComp._list // This is not set when entering Mapy.cz not on `My maps` section
-    ._list._list // this should be set, but TBH not sure why ¯\_(ツ)_/¯
+    ._list // this should be set, but TBH not sure why ¯\_(ツ)_/¯
 
   listInstance
     .__proto__
