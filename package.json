@@ -11,29 +11,39 @@
     "chromeWebStoreId": "ekolhceminigjalkpbbajnippfomegcc",
     "features": {
       "gpx-drop": {
-        "title": "Drop GPX file on a map to show as blue overlay",
         "emoji": "🖱",
-        "description": "This will allow you to plan a new route while seeing the GPX overlay. Compared to the native GPX import which will get lost when you interact with planner"
+        "title": "Drop GPX file on a map to show as blue overlay",
+        "titleCs": "Přetáhněte soubor GPX na mapu pro zobrazení `modrou` vrstvou",
+        "description": "This will allow you to plan a new route while seeing the GPX overlay. Compared to the native GPX import which will get lost when you interact with planner",
+        "descriptionCs": "Umožní plánovat novou trasu zatímco vidíte GPX vrstvu. V porovnání s nativním importem GPX, který se ztratí, když interagujete s plánovačem"
       },
       "map-condensed": {
-        "title": "Condensed Map interface",
         "emoji": "🗺",
-        "description": "Redundant controls hidden, the rest made more compact and unified. Hidden hefty text descriptions. Hidden paid Points of interest."
+        "title": "Condensed Map interface",
+        "titleCs": "Zjednodušené rozhraní",
+        "description": "Redundant controls hidden, the rest made more compact and unified. Hidden hefty text descriptions. Hidden paid Points of interest.",
+        "descriptionCs": "Zbytečné ovládání skryto, zbytek zjednodušen a sjednocen. Skryty zbytečné textové popisky. Skryty placené body zájmu."
       },
       "sidebar-condensed": {
-        "title": "Condensed Sidebar interface",
         "emoji": "🧩",
-        "description": "Reduced size of lot of elements to fit more content, especially saved routes."
+        "title": "Condensed Sidebar interface",
+        "titleCs": "Zjednodušené rozhraní postranní lišty",
+        "description": "Reduced size of lot of elements to fit more content, especially saved routes.",
+        "descriptionCs": "Zmenšená velikost mnoha prvků pro zobrazení více obsahu, zejména uložených tras."
       },
       "performance": {
-        "title": "Performance improvements",
         "emoji": "⚡️",
-        "description": "Disabled some unnecessary slow animations, which were nice at first, but get annoying after a while."
+        "title": "Performance improvements",
+        "titleCs": "Zlepšení výkonu",
+        "description": "Disabled some unnecessary slow animations, which were nice at first, but get annoying after a while.",
+        "descriptionCs": "Vypnuto několik zbytečně pomalých animací, které byly původně pěkné, ale po chvíli jsou otravné."
       },
       "shortcuts": {
-        "title": "Keyboard shortcuts",
         "emoji": "🕹",
-        "description": "Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial, <kbd>R</kbd> Geographic)\n\n<kbd>P</kbd> toggle Pano, <kbd>O</kbd> toggle 3D\n\n<kbd>1-9</kbd> set zoom levels"
+        "title": "Keyboard shortcuts",
+        "titleCs": "Klávesové zkratky",
+        "description": "Keyboard shortcuts for fast map type switching (<kbd>Q</kbd> Basic, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Aerial, <kbd>R</kbd> Geographic)\n\n<kbd>P</kbd> toggle Pano, <kbd>O</kbd> toggle 3D\n\n<kbd>1-9</kbd> set zoom levels",
+        "descriptionCs": "Klávesové zkratky pro rychlé přepínání mapových podkladů (<kbd>Q</kbd> Základní, <kbd>W</kbd> Outdoor, <kbd>E</kbd> Letecká, <kbd>R</kbd> Geografická)\n\n<kbd>P</kbd> přepnout Pano, <kbd>O</kbd> přepnout 3D\n\n<kbd>1-9</kbd> nastavit úrovně přiblížení"
       }
     },
     "descriptionDetailed": "• Keyboard shortcuts for switching map types\n• Condensed sidebar to fit more content\n• Condensed map controls\n• Hidden paid POIs\n• and more…"

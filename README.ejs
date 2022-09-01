@@ -23,6 +23,16 @@
 ![<%= feature.title %>](./assets/exported/feature-<%= key %>.png)
 <% }) %>
 
+## Vylepšení (🇨🇿 version of Features)
+
+<% Object.entries(meta.features).forEach(([key, feature]) => { %>
+#### <%= feature.titleCs %> <%= feature.emoji %>
+
+<%- feature.descriptionCs %>
+
+![<%= feature.title %>](./assets/exported/feature-<%= key %>.png)
+<% }) %>
+
 ## Future Features 🧠💡🙈
 
 * Keyboard shortcuts for zooming (relative & absolute)
