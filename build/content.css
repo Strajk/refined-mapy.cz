@@ -22,6 +22,9 @@
 #mapset-switch ul li.letecka:after {
   content: "E";
 }
+#mapset-switch ul li.zemepisna:after {
+  content: "R";
+}
 #layout-content #layout-header {
   height: 34px;
 }
@@ -139,4 +142,7 @@
 }
 #scene .marker.type-paid {
   display: none;
+}
+#layout-content.transition {
+  transition: all 0s !important;
 }

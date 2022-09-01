@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Refined Mapy.cz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Refines Mapy.cz interface and adds useful features",
   "homepage_url": "https://github.com/Strajk/refined-mapy.cz",
   "icons": {
